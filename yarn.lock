@@ -1435,7 +1435,7 @@
     "@graphql-tools/utils" "^6.0.18"
     tslib "~2.0.0"
 
-"@graphql-codegen/plugin-helpers@^1.17.8", "@graphql-codegen/plugin-helpers@^1.18.2":
+"@graphql-codegen/plugin-helpers@^1.17.8", "@graphql-codegen/plugin-helpers@^1.18.1", "@graphql-codegen/plugin-helpers@^1.18.2":
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/plugin-helpers/-/plugin-helpers-1.18.2.tgz#57011076cb8b8f5d04d37d226a5eda300c01be94"
   integrity sha512-SvX+Ryq2naLcoD6jJNxtzc/moWTgHJ+X0KRfvhGWTa+xtFTS02i+PWOR89YYPcD8+LF6GmyFBjx2FmLCx4JwMg==
@@ -1464,16 +1464,16 @@
     tslib "~2.0.0"
 
 "@graphql-codegen/typescript-react-apollo@1.17.8":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-react-apollo/-/typescript-react-apollo-2.0.6.tgz#da5a515f3cf9b1438a58ae64d0d96f9c62a0c3c7"
-  integrity sha512-DAIUp7K2HWNn8h6w2D+R5ZKntZbHVumrT8ZIYNR6kzjdBrjDR2qPf71pSIljv+y47eR6sbQlj5i7ABZcQXPo7Q==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-react-apollo/-/typescript-react-apollo-2.2.0.tgz#4bcd179aa8e530ef18a637ab5b9e0c4dcf71f6ef"
+  integrity sha512-HiEbef6Gb/VlblG36bFausqP8NCQyTxxHU0RbrbfRxmG0bKda8M09ykGctfr4CjABvfEW2xTB3+6rkyYib5rZw==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "^1.17.8"
-    "@graphql-codegen/visitor-plugin-common" "^1.17.13"
+    "@graphql-codegen/plugin-helpers" "^1.18.1"
+    "@graphql-codegen/visitor-plugin-common" "^1.17.19"
     auto-bind "~4.0.0"
     camel-case "^4.1.1"
     pascal-case "^3.1.1"
-    tslib "~2.0.0"
+    tslib "~2.0.1"
 
 "@graphql-codegen/typescript@1.17.8":
   version "1.17.8"
@@ -1495,7 +1495,7 @@
     auto-bind "~4.0.0"
     tslib "~2.0.1"
 
-"@graphql-codegen/visitor-plugin-common@^1.17.13", "@graphql-codegen/visitor-plugin-common@^1.18.0":
+"@graphql-codegen/visitor-plugin-common@^1.17.13", "@graphql-codegen/visitor-plugin-common@^1.17.19", "@graphql-codegen/visitor-plugin-common@^1.18.0":
   version "1.18.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/visitor-plugin-common/-/visitor-plugin-common-1.18.0.tgz#f4366ec1093c01e752e85f8bd30d09c58b1d6951"
   integrity sha512-OR/Cm9nVaqMLe94Ski60UDhaAf/4+QeV/CQRYrCmxFzEsm03U41VplcNgJBXIAB3EgP/LEIZtgkRc1H4N9u9+Q==
