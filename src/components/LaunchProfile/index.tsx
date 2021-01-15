@@ -3,7 +3,7 @@ import { useLaunchProfileQuery } from '../../generated/graphql';
 import LaunchProfile from './LaunchProfile';
 
 const LaunchProfileContainer = () => {
-  const { data, error, loading } = useLaunchProfileQuery({ variables: { id: '42' } });
+  const { data, error, loading } = useLaunchProfileQuery({ variables: { id: '20' } });
 
   if (loading) {
     return <div>Loading...</div>;

@@ -16,12 +16,12 @@ const LaunchProfile: React.FC<Props> = ({ data }) => {
   return (
     <div className={className}>
       <div className={`${className}__status`}>
-        <span>Flight  {JSON.stringify(data.launch.launch_site)}: </span>
+        <span>Flight {data.launch.mission_name}: </span>
         {data.launch.launch_success ? (
           <span className={`${className}__success`}>Success</span>
         ) : (
-            <span className={`${className}__failed`}>Failed</span>
-          )}
+          <span className={`${className}__failed`}>Failed</span>
+        )}
       </div>
       <h1 className={`${className}__title`}>
         {data.launch.mission_name}
