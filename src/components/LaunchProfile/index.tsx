@@ -26,7 +26,7 @@ const LaunchProfileContainer = ({ id }: OwnProps) => {
   }
 
   if (!data) {
-    return <div>Select a flight from the panel</div>;
+    return <h1>Select a flight from the panel</h1>;
   }
 
   return <LaunchProfile data={data} />;

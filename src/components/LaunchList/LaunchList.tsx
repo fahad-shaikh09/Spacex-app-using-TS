@@ -32,7 +32,7 @@ const LaunchList: React.FC<Props> = ({ data, handleIdChange }) => (
           (launch, i) =>
             !!launch && (
               <button key={i} className={`${className}__item`} onClick={() => handleIdChange(i+1)}>
-                {launch?.mission_name} ({launch.launch_year})
+                 {launch?.mission_name} ({launch.launch_year})
               </button>
             ),
         )}
